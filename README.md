@@ -9,9 +9,9 @@
 
 
 1. Tô Phan Tú - Trưởng nhóm: [github.com\TooooFantu](https://github.com/TooooFantu) 
-2. 
-3. 
-4.
+2. Đỗ Quang Trung - Thành viên: [github.com/Quangtrungzuitinh](https://github.com/Quangtrungzuitinh)
+3. Trần Minh Khanh - Thành viên: [github.com/Viselry](https://github.com/Viselry)
+4. Nguyễn Duy Anh - Thành Viên: [github.com/duyanhhn2004](https://github.com/duyanhhn2004);
 ### Chức năng chính
 * Đăng nhập
 ![login](https://github.com/TooooFantu/Tiganary/assets/125236336/986abe95-ddb9-4037-8fe7-9a47867abde5)
