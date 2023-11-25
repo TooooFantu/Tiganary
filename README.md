@@ -13,6 +13,8 @@
 3. 
 4.
 ### Chức năng chính
+* Đăng nhập
+![login](https://github.com/TooooFantu/Tiganary/assets/125236336/986abe95-ddb9-4037-8fe7-9a47867abde5)
 * Tra cứ từ
 * Thêm từ mới
 * Xóa từ
