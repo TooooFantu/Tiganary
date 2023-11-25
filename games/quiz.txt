@@ -1,0 +1,709 @@
+@You are old enough to take …….. for what you have done.
+= responsible
+= responsibility
+= responsibly
+= irresponsible
++ responsibility
+
+@John is ………… only child in his family so his parents love him a lot.
+= a
+= an
+= the
+= no article
++ the
+
+@According to the boss, John is the most …… for the position of executive secretary.
+= supportive
+= caring
+= suitable
+= comfortable
++ suitable
+
+@What are the ……...of that country? - I think it is some kinds of cheese and sauces.
+= drinks
+= beverages
+= grains
+= special dishes
++ special dishes
+
+@In the last hundred years, traveling ……. much easier and more comfortable.
+= becomes
+= has become
+= became
+= will become
++ became
+
+@When I ……….home last night, I ……. that Jane …… a beautiful candlelight dinner.
+= had arrived / discovered / prepared
+= was arriving / had discovered / was preparing
+= have arrived / was discovering / had prepared
+= arrived / discovered / was preparing
++ arrived / discovered / was preparing
+
+@With greatly increased workloads, everyone is ………… pressure now.
+= under
+= above
+= upon
+= out of
++ under
+
+@Secret Santa became famous, yet still ………..
+= anonymous
+= mysterious
+= secret
+= respectable
++ mysterious
+
+@According to Cindy, our audience are ………. stories about celebrities and famous people.
+= interested in
+= overloaded with
+= bored with
+= full of
++ interested in
+
+@Christine is a blind chef and a gifted writer. She’s very talented and ………….
+= distinguished
+= disable
+= determined
+= conservative
++ determined
+
+@I live in a/an ____ with my parents and my elder sister in the coastal area.
+= extended family
+= nuclear family
+= extended house
+= nuclear house
++ nuclear family
+
+@One advantage of living in a/an ____ is to strengthen relationship between young children and adults.
+= nuclear family
+= nuclear house
+= extended family
+= extended house
++ extended family
+
+@In my opinion, family members are responsible for ____.
+= the housework
+= the chores
+= homework
+= A and B
++ A and B
+
+@My grandpa is the most conservative person in my family. He never ____ about way of life.
+= gives his opinion
+= changes his mind
+= gives his view
+= keeps in mind
++ changes his mind
+
+@After graduating from university, I want to ____ my father's footsteps.
+= follow in
+= succeed in
+= go after
+= keep up
++ follow in
+
+@In a nuclear family, both mother and father have responsibility for housekeeping and ____.
+= child care
+= homework
+= childcare
+= generation gap
++ childcare
+
+@Four generations living in the same roof will have different ____ of lifestyle.
+= gaps
+= rules
+= manners
+= viewpoints
++ viewpoints
+
+@It is necessary that you ____ able to come with us.
+= are
+= be
+= being
+= to be
++ be
+
+@I suggest that Peter ____ the directions carefully before assembling the bicycle.
+= read
+= reading
+= reads
+= to read
++ read
+
+@We request that she ____ the window.
+= not open
+= not to open
+= not opening
+= to not open
++ not to open
+
+@How long ____ Gerry?
+= has you been knowing
+= has you know
+= have you been knowing
+= have you known
++ have you known
+
+@How many times ____ New York?
+= has Charles been visiting
+= has Charles visited
+= have Charles been visiting
+= have Charles visited
++ has Charles visited
+
+@She ____ French words for hours, but she still doesn't remember all of them.
+= has been learning
+= has been learnt
+= has learnt
+= have been learning
++ has been learning
+
+@My father ____.
+= has never smoked
+= has never smoked
+= has never been smoking
+= have never been smoking
++ has never smoked
+
+@Oh dear, the light ____ all night.
+= has been burning
+= has burnt
+= has burned
+= have burning
++ has been burning
+
+@The boy waved his hands to his mother, who was standing at the school gate, to ………….. her attention.
+= attract
+= pull
+= follow
+= tempt
++ attract
+
+@He is one of the most ………. bosses I have ever worked with. He behaves rudely to not only me but also others in the staff.
+= thoughtful
+= impolite
+= attentive
+= communicative
++ impolite
+
+@If a boss wants to have a well-qualified staff, he should have to pay his employees ……
+= appropriate
+= appropriately
+= appropriation
+= appropriating
++ appropriately
+
+@I have never seen such a beautiful dress ……….. you before.
+= of
+= on
+= for
+= in
++ on
+
+@Some of the participating schools have also decided to use green cleaning products, which are safer since they do not ……. harmful chemicals into the environment.
+= release
+= expose
+= compound
+= deplete
++ expose
+
+@In Britain, it is (compulsory) to go to school between the ages of five and sixteen.
+= legal
+= required
+= voluntary
+= comprehensive
++ required
+
+@Although it is now (redundant), the church continues to be used occasionally for worship.
+= old-fashioned
+= reproduced
+= unnecessary
+= quaint
++ unnecessary
+
+@Polish artist Pawel Kuzinsky creates satirical paintings filled with (thought-provoking) messages about the world.
+= inspirational
+= provocative
+= stimulating
+= universal
++ inspirational
+
+@She was brought up in the (slums) of Leeds.
+= downtown area
+= industrial area
+= poor area
+= rural area
++ poor area
+
+@The Freephone 24 Hour National Domestic Violence Helpline is a (national) service for women experiencing domestic violence, their family, friends, colleagues and others calling on their behalf.
+= in the same country
+= in the same family
+= in the same office
+= in the same school
++ in the same country
+
+@She's a (down-to-earth) woman with no pretensions.
+= ambitious
+= creative
+= idealistic
+= practical
++ practical
+
+@It is (crucial) that urban people not look down on rural areas.
+= evil
+= optional
+= unnecessary
+= vital
++ vital
+
+@These projects have proved to be very effective in dealing with global climate change, which was considered an (insoluble) problem in the first 30 years of this century.
+= hard
+= challenging
+= unsolvable
+= unbearable
++ unsolvable
+
+@There's a real mix of people in Brighton. It has a very (cosmopolitan) feel to it.
+= busy
+= hectic
+= multi-cultural
+= diversified
++ multi-cultural
+
+@People who hold an optimistic view believe that cities of the future will increase the general (well-being) of individuals and societies.
+= health state
+= quality of life
+= level of development
+= growth rate
++ quality of life
+
+@ ……….. is the state of not knowing how to read or write.
+= literacy
+= illiteracy
+= campaign
+= struggle
++ illiteracy
+
+@When someone …………… a poem or other piece of writing, they say it aloud after they have learned it.
+= recites
+= takes part in
+= completes
+= completes
++ recites
+
+@We must start a …………. for illiteracy eradication immediately.
+= contest
+= company
+= champion
+= campaign
++ campaign
+
+@In Vietnam, Tet is the grandest and most important ………… in the year.
+= occasion
+= season
+= tradition
+= vision
++ occasion
+
+@During Tet holiday, homes are often ……….. with plants and flowers.
+= colored
+= decorated
+= hanged
+= supplied
++ decorated
+
+@Carlos was ………. the first prize in the essay competition.
+= disappointed
+= completed
+= excited
+= awarded
++ awarded
+
+@The number of injuries from automobile accidents ………. every year.
+= increases
+= decreases
+= controls
+= limits
++ increases
+
+@Each nation has many people who voluntarily (take care of) others.
+= bring along
+= get on with
+= keep up with
+= look after
++ look after
+
+@The construction work was (carried out) by the local contractor.
+= continued
+= completed
+= done
+= run
++ run
+
+@Some high school students (take part in) helping the handicapped.
+= participate
+= compete
+= experience
+= support
++ participate
+
+@Henry has found a ((temporary)) job in a factory.
+= eternal
+= genuine
+= permanent
+= satisfactory
++ permanent
+
+@He was so ((insubordinate)) that he lost his job within a week.
+= fresh
+= disobedient
+= obedient
+= understanding
++ obedient
+
+@The children ______ to bed before their parents came home from work.
+= were all going
+= had all gone
+= had all been going
+= have all gone
++ had all gone
+
+@David was deported on account of his expired visa. He ______ it renewed.
+= must have had
+= should have had
+= needn’t have had
+= mightn’t have had
++ should have had
+
+@A good leader should not be conservative, but rather ______ to new ideas.
+= receptive
+= acceptable
+= permissive
+= applicable
++ receptive
+
+@______ individuals are those who share the same hobbies, interests, or points of view.
+= Light-hearted
+= Like-minded
+= Even-handed
+= Open-minded
++ Like-minded
+
+@After several injuries and failures, things have eventually ______ for Todd when he reached the final round of the tournament.
+= looked up
+= gone on
+= taken up
+= turned on
++ looked up
+
+@John and Mary are talking about what to do after class.
+
+John: "______" - Mary: "Yes, I'd love to."
+= Do you often have time for a drink after class?
+= Would you like to have a drink after class?
+= Do you often go out for a drink after class?
+= Would you like tea or coffee after class?
++ Would you like to have a drink after class?
+
+
+@The average, ________ watches television for about 15 hours a week.
+= spectator
+= observer
+= audience
+= viewer
++ viewer
+
+@Although Brenda came last, everyone agreed she had ________ her best.
+= had
+= got
+= done
+= made
++ done
+
+@The computer has had an enormous _________ on the way we work.
+= alteration
+= change
+= impression
+= influence
++ influence
+
+@His letter is full of mistakes. He _____ the mistakes carefully before sending it.
+= must have checked
+= should have checked
+= can have checked
+= could have checked
++ should have checked
+
+@Many plants and animal species are now on the _______ of extinction.
+= danger
+= border
+= margin
+= verge
++ verge
+
+@______- is natural environment in which plant or animals live.
+= Ecology
+= Habitat
+= Extinction
+= Biodiversity
++ Habitat
+
+@Tom: " Sorry, I forgot to phone you last night.” - Mary: “______________”
+= I have nothing to tell you.
+= Oh, Poor me.
+= Never mind!
+= You were absent-minded.
++ Never mind!
+
+@Annie: "Have a nice weekend." - Riat: “________”
+= You have.
+= You will.
+= You too.
+= You are too.
++ You too.
+
+@As we wanted to be close to_______nature, we moved to the countryside.
+= Ø
+= a
+= an
+= the
++ Ø
+
+@________ have enough apples, she’ll make an apple pie this afternoon.
+= Should she
+= If she
+= Will she
+= Unless she
++ Should she
+
+@If you _______ to me, you wouldn’t have got so much trouble.
+= listened
+= would listen
+= had listened
+= would have listened
++ had listened
+
+@If you don’t know how to spell a word, you ______ look it up in the dictionary.
+= must
+= will
+= should
+= ought
++ should
+
+@For environmental safety, we need to find ways to reduce (emission) of fumes and smoke of factories.
+= leak
+= release
+= poison
+= pollutant
++ release
+
+@Nylon is a (man-made) fibre, the use of which has helped more people to have cheaper and more colourful clothes to wear.
+= natural
+= plastic
+= synthetic
+= artificial
++ artificial
+
+@The advances of commercial airplanes resulted in a (shrinking) world.
+= decreasing
+= reduced
+= smaller
+= compressing
++ smaller 
+
+@We have to suffer from traffic (congestion) and pollution every day.
+= accident
+= fullness
+= mass
+= crowd
++ crowd
+
+@Many animals were born in (captivity). Resultantly, they do not always breed well.
+= imprisonment
+= lock
+= detention
+= freedom
++ lock
+ 
+@Those companies were (closed) due to some seriously financial problems.
+= taken off
+= put away
+= wiped out
+= gone over
++ wiped out
+
+@With the (dawn) of space exploration, the notion that atmospheric conditions on Earth may be unique in the solar system was strengthened.
+= outcome
+= continuation
+= beginning
+= expansion
++ beginning
+
+@What do you think about people's life's ........ in the future?
+= expect
+= expectant
+= expectancy
+= expectation
++ expectancy
+
+@The ........ predict that things will be much worse than they are nowadays.
+= optimistic
+= pessimistic
+= optimists
+= pessimists
++ pessimists
+
+@........ of the financial crisis, all they could do was hold on and hope that things would improve.
+= In the end
+= At the height
+= On the top
+= At the bottom
++ On the top
+
+@Many desert plants develop their long and shallow root system. _________, they can collect much water as much as possible.
+= So
+= Therefore
+= However
+= Although
++ Therefore
+
+@Deserts often include _________ and rocky surface.
+= Oil
+= Water
+= Sand
+= Trees
++ Sand
+
+@We go to school every day per week __________ Sundays.
+= but
+= so
+= except
+= therefore
++ except
+
+@___________ a desert requires a lot of careful preparation and survival skills.
+= Visiting
+= Exploring
+= Visit
+= Explore
++ Exploring
+
+@You have no choice __________ work hard to make your parents happy.
+= despite
+= therefore
+= because
+= but
++ but
+
+@____________ other students, he goes to school five days per week.
+= As
+= Similar to
+= Like
+= Alike
++ Like
+
+@Newcomers find it difficult _______ a new environment when studying abroad.
+= to adapt
+= to adapt to
+= adapting
+= adapting to
++ to adapt to
+
+@_____________ drive too fast. You will be fined.
+= Not
+= With
+= Don't
+= Do
++ Don't
+
+@The Sahara is the largest hot desert in the world ______ it isn't the largest one in the world.
+= therefore
+= however
+= but
+= so
++ but
+
+@It is raining heavily _______ we can't go out for walking.
+= therefore
+= so
+= but
+= because
++ so
+
+@Maintaining biodiversity is _________ great importance of preserving the precious and rare animals.
+= of
+= in
+= at
+= within
++ of
+
+@She never remembers to lock the door before leaving out, _____ she?
+= doesn’t she
+= does she
+= did she
+= didn’t she
++ does she
+
+@You should wear warm clothes in winter, _________ you will catch cold.
+= therefore
+= however
+= otherwise
+= so
++ otherwise
+
+@__________ the cold weather, my family still managed to go for a picnic.
+= Because
+= Because of
+= In spite of
+= Though
++ In spite of
+
+@He has got________ money so he can’t buy this latest car.
+= few
+= a little
+= little
+= a few
++ little
+
+@The authority has made a lot of great efforts ________ endangered species.
+= to save
+= to kill
+= do
+= to store
++ to save 
+
+@All rubbish and sewage has to be _________ treated before being discharged into seas and rivers.
+= chemical
+= chemically
+= chemistry
+= chemist
++ chemically
+
+@This campaign for protecting endangered species appeals more than 20__________.
+= research
+= researches
+= researchers
+= researcher
++ researchers
+
+@Some people ________ that animals and plants will never become extinct.
+= believe
+= tell
+= view
+= regard
++ believe
+
+@_____________ means the protection of natural environment.
+= starvation
+= save
+= conservation
+= saving
++ conservation
+
+
+
+
+
+
+
