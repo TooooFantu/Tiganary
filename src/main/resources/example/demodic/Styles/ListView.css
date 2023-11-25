@@ -1,0 +1,85 @@
+/***/
+.list-view {
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+/** List-cell. */
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: #dd2c00;
+    -fx-text-fill: #FFE668;
+    -fx-background-radius: 5px;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #dd2c00;
+    -fx-font-size: 15px;
+}
+
+.list-cell:odd {
+    -fx-background-color: transparent;
+    -fx-text-fill: #dd2c00;
+}
+
+.list-cell:even {
+    -fx-background-color: transparent;
+    -fx-text-fill: #dd2c00;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color: #ffd24d;
+    -fx-text-fill: #dd2c00;
+    -fx-background-radius: 5px;
+}
+
+/** Track. */
+.list-view .scroll-bar:horizontal .track,
+.list-view .scroll-bar:vertical .track {
+    -fx-background-color:#FFE668;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-border-radius:2em;
+}
+
+/** Thump. */
+.list-view .scroll-bar:horizontal .thumb,
+.list-view .scroll-bar:vertical .thumb {
+    -fx-background-color:#dd2c00;
+    -fx-background-radius: 2em;
+}
+
+.list-view .scroll-bar:horizontal .thumb:hover,
+.list-view .scroll-bar:vertical .thumb:hover {
+    -fx-background-color:#f5891d;
+    -fx-background-radius: 2em;
+}
+
+/** Button. */
+.list-view .scroll-bar:horizontal .increment-button ,
+.list-view .scroll-bar:horizontal .decrement-button {
+
+    -fx-background-color:#FFE668;
+    -fx-background-radius: 0em;
+    -fx-padding:0 0 10 0;
+
+}
+
+.list-view .scroll-bar:vertical .increment-button ,
+.list-view .scroll-bar:vertical .decrement-button {
+
+    -fx-background-color:#FFE668;
+    -fx-background-radius: 0em;
+    -fx-padding:0 10 0 0;
+
+}
+
+.list-view .scroll-bar .increment-arrow,
+.list-view .scroll-bar .decrement-arrow{
+    -fx-shape : " ";
+    -fx-padding :0;
+}
+
+.corner {
+    -fx-background-color: #FFE668;
+}

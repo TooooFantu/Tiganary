@@ -1,0 +1,7 @@
+.glyph-icon {
+    -fx-fill:
+}
+
+.button:hover .glyph-icon {
+    -fx-fill:
+}

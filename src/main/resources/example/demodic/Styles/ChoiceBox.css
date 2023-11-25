@@ -1,0 +1,28 @@
+
+.choice-box {
+  -fx-background-color: #dd2c00;
+  -fx-mark-color: #ffe668; // arrow color
+}
+
+.choice-box > .label {
+    -fx-text-fill: #ffe668;
+}
+
+.choice-box .context-menu {
+    -fx-background-color: #ffe668;
+    -fx-border-color: #dd2c00;
+    -fx-border-radius: 5px;
+}
+
+.choice-box .menu-item:focused {
+    -fx-background-color: #dd2c00;
+    -fx-background-radius: 5px;
+}
+
+.choice-box .menu-item > .label {
+    -fx-text-fill: #dd2c00;
+}
+
+.choice-box .menu-item:focused > .label {
+    -fx-text-fill: #ffe668;
+}

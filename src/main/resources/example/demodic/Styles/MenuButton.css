@@ -1,0 +1,25 @@
+.button{
+    -fx-background-color: #ffa726;
+    -fx-font-size: 25px;
+    -fx-font-family: Arial, sans-serif;
+    -fx-font-weight: bold;
+    -fx-text-fill: #dd2c00;
+}
+
+.button:hover{
+    -fx-background-color: #f5891d;
+    -fx-border-color: #dd2c00;
+    -fx-border-width: 0px 0px 0px 5px;
+}
+
+.button:pressed{
+    -fx-background-color: #e65100;
+}
+
+.glyph-icon {
+    -fx-fill: #dd2c00;
+}
+
+.button:hover .glyph-icon {
+    -fx-fill: #dd2c00;
+}

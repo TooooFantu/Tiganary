@@ -1,0 +1,57 @@
+* {
+	-fx-primary-color: #f5891d;
+	-fx-secondary-color: #ffe668;
+
+	-fx-focus-color: -fx-secondary-color;
+}
+
+.tab-header-area .tab-header-background {
+ 	-fx-background-color: -fx-primary-color;
+}
+.tab-pane .tab:selected {
+	-fx-background-color: -fx-secondary-color;
+	-fx-background-insets: 0 0 0 0;
+	-fx-background-radius: 5 5 0 0;
+}
+
+.tab .tab-label {
+ 	-fx-alignment: CENTER;
+	-fx-text-fill: #ffe668;
+	-fx-font-size: 22px;
+	-fx-font-weight: bold;
+	-fx-padding: 0 10 0 10;
+}
+
+.tab: selected .tab-label {
+ 	-fx-alignment: CENTER;
+	-fx-text-fill: #dd2c00;
+	-fx-font-size: 22px;
+	-fx-font-weight: bold;
+	-fx-padding: 0 10 0 10;
+}
+
+.tab .tab-label .glyph-icon {
+    -fx-fill: #ffe668;
+}
+
+.tab: selected .tab-label .glyph-icon {
+    -fx-fill: #dd2c00;
+}
+
+.tab-pane:top *.tab-header-area {
+	-fx-padding: 5 0 0 10;
+}
+.tab-pane {
+	-fx-background-color: transparent;
+	-fx-tab-min-width: 160px;
+	-fx-tab-min-height: 55px;
+	-fx-tab-max-height: 55px;
+}
+.tab-pane .tab {
+	-fx-background-color: transparent;
+}
+.tab-pane:focused .tab-header-area .headers-region .tab:selected .focus-indicator {
+ 	-fx-border-width: 0;
+	-fx-border-insets: 0 0 0 0;
+	-fx-border-radius: 0;
+}

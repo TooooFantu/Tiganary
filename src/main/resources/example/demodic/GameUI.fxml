@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.demodic.GameUIController">
+   <children>
+      <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="300.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="900.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="500.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="1.7976931348623157E308" minHeight="-Infinity" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="300.0" style="-fx-background-color: #ffa726;" GridPane.rowIndex="2" GridPane.rowSpan="3" />
+            <AnchorPane fx:id="backSlider" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="300.0" style="-fx-background-color: #ffa726;" GridPane.rowIndex="2" GridPane.rowSpan="3">
+               <children>
+                  <AnchorPane fx:id="quizPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="300.0" style="-fx-background-color: #ffa726;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <ImageView fitHeight="239.0" fitWidth="198.0" layoutX="51.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/brain-removebg-preview.png" />
+                           </image></ImageView>
+                        <Label layoutX="32.0" layoutY="569.0" text="TIGANARY" textFill="#dd2c00" AnchorPane.leftAnchor="30.0">
+                           <font>
+                              <Font name="Arial Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="32.0" layoutY="586.0" text="Từ điển tốt nhất trên thế giới" textFill="#dd2c00" underline="true" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="30.0" />
+                        <Label layoutX="241.0" layoutY="593.0" text="\@TIGAR" textFill="#dd2c00" underline="true" AnchorPane.bottomAnchor="12.0" AnchorPane.rightAnchor="12.0" />
+                        <Label layoutX="120.0" layoutY="402.0" text="GAME" textFill="#dd2c00">
+                           <font>
+                              <Font name="Arial Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="78.0" layoutY="425.0" text="TIGAR QUIZ" textFill="#dd2c00">
+                           <font>
+                              <Font name="Arial Bold" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="hangmanPane" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="300.0" style="-fx-background-color: #ffa726;" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <ImageView fitHeight="255.0" fitWidth="200.0" layoutX="50.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/knife-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="32.0" layoutY="569.0" text="TIGANARY" textFill="#dd2c00" AnchorPane.leftAnchor="30.0">
+                           <font>
+                              <Font name="Arial Bold" size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="32.0" layoutY="586.0" text="Từ điển tốt nhất trên thế giới" textFill="#dd2c00" underline="true" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="30.0" />
+                        <Label layoutX="241.0" layoutY="593.0" text="\@TIGAR" textFill="#dd2c00" underline="true" AnchorPane.bottomAnchor="12.0" AnchorPane.rightAnchor="12.0" />
+                        <Label layoutX="121.0" layoutY="402.0" text="GAME" textFill="#dd2c00">
+                           <font>
+                              <Font name="Arial Bold" size="20.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="85.0" layoutY="425.0" text="HANGMAN" textFill="#dd2c00">
+                           <font>
+                              <Font name="Arial Bold" size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="slider" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="615.0" prefWidth="300.0" style="-fx-background-color: #ffa726;" GridPane.rowIndex="2" GridPane.rowSpan="3">
+               <children>
+                  <VBox maxWidth="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" stylesheets="@Styles/MenuButton.css" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="50.0">
+                     <children>
+                        <JFXButton alignment="BASELINE_LEFT" graphicTextGap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#switchToHomeScene" prefHeight="80.0" prefWidth="300.0" text="TRANG CHỦ" textFill="#dd2c00">
+                           <graphic>
+                              <FontAwesomeIcon glyphName="HOME" size="1.3em" />
+                           </graphic>
+                           <font>
+                              <Font name="Arial Bold" size="25.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton alignment="BASELINE_LEFT" graphicTextGap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#switchToSearchScene" prefHeight="80.0" prefWidth="300.0" text="TRA CỨU" textFill="#dd2c00">
+                           <graphic>
+                              <FontAwesomeIcon glyphName="SEARCH" size="1.3em" />
+                           </graphic>
+                           <font>
+                              <Font name="Arial Bold" size="25.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton alignment="BASELINE_LEFT" graphicTextGap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="300.0" text="GAME" textFill="#dd2c00">
+                           <graphic>
+                              <FontAwesomeIcon glyphName="STEAM" size="1.3em" />
+                           </graphic>
+                           <font>
+                              <Font name="Arial Bold" size="25.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton alignment="BASELINE_LEFT" graphicTextGap="7.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#switchToSettingScene" prefHeight="80.0" prefWidth="300.0" text="CÀI ĐẶT" textFill="#dd2c00">
+                           <graphic>
+                              <FontAwesomeIcon glyphName="GEAR" size="1.3em" />
+                           </graphic>
+                           <font>
+                              <Font name="Arial Bold" size="25.0" />
+                           </font>
+                        </JFXButton>
+                        <JFXButton alignment="BASELINE_LEFT" graphicTextGap="5.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="300.0" text="THÔNG TIN " textFill="#dd2c00">
+                           <graphic>
+                              <FontAwesomeIcon glyphName="QUESTION_CIRCLE" size="1.3em" />
+                           </graphic>
+                           <font>
+                              <Font name="Arial Bold" size="25.0" />
+                           </font>
+                        </JFXButton>
+                     </children>
+                  </VBox>
+               </children>
+            </AnchorPane>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="1200.0" GridPane.columnSpan="2">
+               <children>
+                  <Pane layoutX="-398.0" layoutY="-4.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="1200.0" style="-fx-background-color: #dd2c00;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <ImageView fx:id="Exit" fitHeight="22.0" fitWidth="22.0" layoutX="1174.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/exit.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="4.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/lionary_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="34.0" layoutY="6.0" text="TIGANARY" textFill="#ffe668">
+                           <font>
+                              <Font name="Arial Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="300.0" GridPane.rowIndex="1">
+               <children>
+                  <Label fx:id="MenuClose" alignment="BASELINE_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="300.0" style="-fx-background-color: #ffa726;" text="CHUYÊN MỤC" textFill="#dd2c00" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <graphic>
+                        <FontAwesomeIcon fill="#dd2c00" glyphName="LIST" />
+                     </graphic>
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Menu" alignment="BASELINE_CENTER" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="55.0" prefWidth="300.0" style="-fx-background-color: #ffa726;" text="CHUYÊN MỤC" textFill="#e65100" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <graphic>
+                        <FontAwesomeIcon fill="#e65100" glyphName="BARS" />
+                     </graphic>
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <TabPane fx:id="tabContainer" prefHeight="200.0" prefWidth="200.0" stylesheets="@Styles/TabPane.css" tabClosingPolicy="UNAVAILABLE" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.rowSpan="4">
+              <tabs>
+                <Tab fx:id="quizTab" text="TIGAR QUIZ">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #ffe668;">
+                           <children>
+                              <WebView fx:id="question" layoutX="261.0" layoutY="91.0" prefHeight="150.0" prefWidth="200.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="50.0" />
+                              <VBox layoutX="200.0" layoutY="232.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="197.0" prefWidth="500.0" spacing="10.0">
+                                 <children>
+                                    <JFXRadioButton fx:id="a" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#getAnswer" prefHeight="40.0" prefWidth="500.0" textFill="#dd2c00">
+                                       <font>
+                                          <Font name="Arial" size="15.0" />
+                                       </font>
+                                       <selectedColor>
+                                          <Color red="0.8666666746139526" green="0.1725490242242813" />
+                                       </selectedColor>
+                                       <unSelectedColor>
+                                          <Color red="0.8666666746139526" green="0.1725490242242813" />
+                                       </unSelectedColor>
+                                       <toggleGroup>
+                                          <ToggleGroup fx:id="answer" />
+                                       </toggleGroup>
+                                    </JFXRadioButton>
+                                    <JFXRadioButton fx:id="b" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#getAnswer" prefHeight="40.0" prefWidth="500.0" textFill="#dd2c00" toggleGroup="$answer">
+                                       <font>
+                                          <Font name="Arial" size="15.0" />
+                                       </font>
+                                       <selectedColor>
+                                          <Color red="0.8666666746139526" green="0.1725490242242813" />
+                                       </selectedColor>
+                                       <unSelectedColor>
+                                          <Color red="0.8666666746139526" green="0.1725490242242813" />
+                                       </unSelectedColor>
+                                    </JFXRadioButton>
+                                    <JFXRadioButton fx:id="c" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#getAnswer" prefHeight="40.0" prefWidth="500.0" textFill="#dd2c00" toggleGroup="$answer">
+                                       <font>
+                                          <Font name="Arial" size="15.0" />
+                                       </font>
+                                       <selectedColor>
+                                          <Color red="0.8666666746139526" green="0.1725490242242813" />
+                                       </selectedColor>
+                                       <unSelectedColor>
+                                          <Color red="0.8666666746139526" green="0.1725490242242813" />
+                                       </unSelectedColor>
+                                    </JFXRadioButton>
+                                    <JFXRadioButton fx:id="d" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#getAnswer" prefHeight="40.0" prefWidth="500.0" textFill="#dd2c00" toggleGroup="$answer">
+                                       <font>
+                                          <Font name="Arial" size="15.0" />
+                                       </font>
+                                       <selectedColor>
+                                          <Color red="0.8666666746139526" green="0.1725490242242813" />
+                                       </selectedColor>
+                                       <unSelectedColor>
+                                          <Color red="0.8666666746139526" green="0.1725490242242813" />
+                                       </unSelectedColor>
+                                    </JFXRadioButton>
+                                 </children>
+                              </VBox>
+                              <JFXButton fx:id="confirm" graphicTextGap="10.0" layoutX="389.0" layoutY="438.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#answer" prefHeight="50.0" prefWidth="122.0" stylesheets="@Styles/JFXButton.css" text="NỘP" textFill="#ffe668">
+                                 <graphic>
+                                    <FontAwesomeIcon glyphName="CARET_RIGHT" size="1.4em" />
+                                 </graphic>
+                                 <font>
+                                    <Font name="Arial Bold" size="17.0" />
+                                 </font>
+                              </JFXButton>
+                              <AnchorPane layoutX="50.0" layoutY="508.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="0.0" />
+                              <AnchorPane fx:id="notification" layoutX="100.0" layoutY="528.0" prefHeight="80.0" prefWidth="700.0" style="-fx-background-color: #dd2c00; -fx-background-radius: 7px;">
+                                 <children>
+                                    <Label fx:id="info" layoutX="39.0" layoutY="19.0" text="CÂU TRẢ LỜI CHÍNH XÁC" textFill="#ffe668">
+                                       <font>
+                                          <Font name="Arial Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="showCorrect" layoutX="39.0" layoutY="49.0" text="CÂU TRẢ LỜI CHÍNH XÁC" textFill="#ffe668">
+                                       <font>
+                                          <Font name="Arial" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <AnchorPane layoutX="474.0" layoutY="9.0" prefHeight="64.0" prefWidth="215.0" style="-fx-background-radius: 7px; -fx-background-color: #ffe668;" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                       <children>
+                                          <JFXButton alignment="CENTER" graphicTextGap="10.0" layoutX="12.0" layoutY="11.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#loadQuiz" prefHeight="39.0" prefWidth="191.0" stylesheets="@Styles/JFXButton.css" text="CÂU HỎI TIẾP" textFill="#ffe668">
+                                             <graphic>
+                                                <FontAwesomeIcon glyphName="ARROW_CIRCLE_RIGHT" size="1.4em" />
+                                             </graphic>
+                                             <font>
+                                                <Font name="Arial Bold" size="17.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </AnchorPane>
+                           </children></AnchorPane>
+                  </content>
+                     <graphic>
+                        <FontAwesomeIcon glyphName="QUESTION" />
+                     </graphic>
+                </Tab>
+                <Tab fx:id="hangmanTab" text="HANGMAN">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #ffe668;">
+                           <children>
+                              <Label fx:id="wordState" alignment="CENTER" layoutX="50.0" layoutY="185.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="500.0" style="-fx-background-color: #ffa726; -fx-background-radius: 7px;" text="Label" textFill="#dd2c00" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="130.0">
+                                 <font>
+                                    <Font name="Arial Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="remainingAnswer" alignment="CENTER" layoutX="484.0" layoutY="87.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="250.0" style="-fx-background-color: #ffa726; -fx-background-radius: 7px;" text="Label" textFill="#dd2c00" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="130.0">
+                                 <font>
+                                    <Font name="Arial Bold" size="20.0" />
+                                 </font>
+                              </Label>
+                              <JFXTextField fx:id="charTextField" focusColor="#fa7d00" labelFloat="true" layoutX="493.0" layoutY="366.0" prefHeight="40.0" prefWidth="145.0" promptText="Nhập" stylesheets="@Styles/TextField.css" unFocusColor="#dd2c00">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                              </JFXTextField>
+                              <JFXButton fx:id="hangmanConfirm" alignment="BASELINE_CENTER" layoutX="657.0" layoutY="366.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#submit" prefHeight="40.0" prefWidth="60.0" stylesheets="@Styles/JFXButton.css" text="NỘP" textFill="#ffe668">
+                                 <graphic>
+                                    <FontAwesomeIcon glyphName="CARET_RIGHT" size="27px" />
+                                 </graphic>
+                              </JFXButton>
+                              <AnchorPane layoutX="85.0" layoutY="363.0" prefHeight="47.0" prefWidth="398.0" style="-fx-background-color: #ffa726; -fx-background-radius: 7px;">
+                                 <children>
+                                    <Label layoutX="149.0" layoutY="4.0" text="Nhập một kí tự" textFill="#dd2c00">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <Label layoutX="61.0" layoutY="20.0" text="(Nếu bạn nhập nhiều hơn sẽ lấy kí tự đầu)" textFill="#dd2c00">
+                                       <font>
+                                          <Font size="15.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </AnchorPane>
+                              <Label layoutX="383.0" layoutY="46.0" text="ĐOÁN TỪ" textFill="#dd2c00">
+                                 <font>
+                                    <Font name="Corbel Bold" size="30.0" />
+                                 </font>
+                              </Label>
+                              <AnchorPane fx:id="hangmanNotification" layoutX="100.0" layoutY="528.0" prefHeight="80.0" prefWidth="700.0" style="-fx-background-color: #dd2c00; -fx-background-radius: 7px;">
+                                 <children>
+                                    <Label fx:id="hangmanInfo" layoutX="39.0" layoutY="19.0" text="CÂU TRẢ LỜI CHÍNH XÁC" textFill="#ffe668">
+                                       <font>
+                                          <Font name="Arial Bold" size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="hangmanShowCorrect" layoutX="39.0" layoutY="49.0" text="CÂU TRẢ LỜI CHÍNH XÁC" textFill="#ffe668">
+                                       <font>
+                                          <Font name="Arial" size="15.0" />
+                                       </font>
+                                    </Label>
+                                    <AnchorPane layoutX="474.0" layoutY="9.0" prefHeight="64.0" prefWidth="215.0" style="-fx-background-radius: 7px; -fx-background-color: #ffe668;" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                       <children>
+                                          <JFXButton alignment="CENTER" graphicTextGap="10.0" layoutX="12.0" layoutY="11.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#loadHangman" prefHeight="39.0" prefWidth="191.0" stylesheets="@Styles/JFXButton.css" text="CÂU HỎI TIẾP" textFill="#ffe668">
+                                             <graphic>
+                                                <FontAwesomeIcon glyphName="ARROW_CIRCLE_RIGHT" size="1.4em" />
+                                             </graphic>
+                                             <font>
+                                                <Font name="Arial Bold" size="17.0" />
+                                             </font>
+                                          </JFXButton>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </AnchorPane>
+                              <Label fx:id="answerList" alignment="CENTER" layoutX="50.0" layoutY="223.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="800.0" style="-fx-background-color: #ffa726; -fx-background-radius: 7px;" text="Label" textFill="#dd2c00">
+                                 <font>
+                                    <Font name="Arial" size="15.0" />
+                                 </font>
+                              </Label>
+                           </children></AnchorPane>
+                  </content>
+                     <graphic>
+                        <FontAwesomeIcon glyphName="MALE" />
+                     </graphic>
+                </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

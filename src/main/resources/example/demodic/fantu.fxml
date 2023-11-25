@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<AnchorPane prefHeight="600.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.demodic.vipController">
+    <children>
+      <GridPane prefHeight="600.0" prefWidth="1050.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="398.0" minWidth="10.0" prefWidth="264.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="788.0" minWidth="10.0" prefWidth="786.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="129.0" minHeight="10.0" prefHeight="39.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="129.0" minHeight="0.0" prefHeight="37.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="458.0" minHeight="10.0" prefHeight="443.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FFE668;" GridPane.rowIndex="2" />
+            <AnchorPane fx:id="backSlider" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2" GridPane.rowSpan="3">
+               <children>
+                  <AnchorPane fx:id="searchPane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffd24d;">
+                     <children>
+                        <ImageView fitHeight="237.0" fitWidth="179.0" layoutX="43.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="212.09848022460938" AnchorPane.leftAnchor="43.0" AnchorPane.rightAnchor="43.0" AnchorPane.topAnchor="90.0">
+                           <image>
+                              <Image url="@Images/magnifier-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="43.0" layoutY="335.0" text="LION" textFill="#f3912f">
+                           <font>
+                              <Font name="Calibri Bold" size="48.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="43.0" layoutY="383.0" text="Best dictionnary in the World" textFill="#f3912f">
+                           <font>
+                              <Font name="Calibri Italic" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="addPane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffd24d;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <ImageView fitHeight="213.0" fitWidth="161.0" layoutX="42.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/vest-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="42.0" layoutY="337.0" text="LION" textFill="#f3912f">
+                           <font>
+                              <Font name="Calibri Bold" size="48.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="42.0" layoutY="384.0" text="Best dictionnary in the World" textFill="#f3912f">
+                           <font>
+                              <Font name="Calibri Italic" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="removePane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffd24d;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <ImageView fitHeight="274.0" fitWidth="154.0" layoutX="47.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/witch-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="47.0" layoutY="338.0" text="LION" textFill="#f3912f">
+                           <font>
+                              <Font name="Calibri Bold" size="48.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="41.0" layoutY="385.0" text="Best dictionnary in the World" textFill="#f3912f">
+                           <font>
+                              <Font name="Calibri Italic" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="fixPane" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffd24d;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <ImageView fitHeight="269.0" fitWidth="225.0" layoutX="14.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/pumkin-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+                <AnchorPane fx:id="slider" prefHeight="540.0" prefWidth="264.0" style="-fx-background-color: #ffd24d;" stylesheets="@Styles/Button.css" GridPane.rowIndex="2" GridPane.rowSpan="3">
+               <GridPane.margin>
+                  <Insets top="1.0" />
+               </GridPane.margin>
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+                     <children>
+                        <Button alignment="BASELINE_LEFT" mnemonicParsing="false" prefHeight="70.0" prefWidth="269.0" text="HOME">
+                           <graphic>
+                              <ImageView fitHeight="44.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" />
+                           </graphic>
+                        </Button>
+                        <Button alignment="BASELINE_LEFT" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="269.0" text="LOOK UP">
+                           <graphic>
+                              <ImageView fitHeight="44.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" />
+                           </graphic>
+                           <font>
+                              <Font name="Arial" size="12.0" />
+                           </font>
+                        </Button>
+                        <Button alignment="BASELINE_LEFT" layoutX="10.0" layoutY="80.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="269.0" text="SETTING">
+                           <graphic>
+                              <ImageView fitHeight="44.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" />
+                           </graphic>
+                        </Button>
+                        <Button alignment="BASELINE_LEFT" layoutX="10.0" layoutY="150.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="269.0" text="ABOUT US">
+                           <graphic>
+                              <ImageView fitHeight="44.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" />
+                           </graphic>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children>
+                </AnchorPane>
+                <AnchorPane prefHeight="50.0" prefWidth="1050.0" style="-fx-background-color: WHITE;" GridPane.columnSpan="2">
+                    <children>
+                        <Pane layoutY="13.0" prefHeight="25.0" prefWidth="200.0" style="-fx-background-color: #FFD583;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <children>
+                                <ImageView fx:id="Exit" fitHeight="22.0" fitWidth="22.0" layoutX="1025.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@Images/exit.png" />
+                                    </image>
+                                </ImageView>
+                            </children>
+                        </Pane>
+                    </children>
+                </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #0A4969;" GridPane.rowIndex="1">
+               <children>
+                        <Label fx:id="MenuClose" alignment="CENTER" prefHeight="33.0" prefWidth="150.0" style="-fx-background-color: #FFE668;" text="MENU" textFill="#f3912f" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <graphic>
+                                <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@Images/menu.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <font>
+                                <Font name="System Bold" size="25.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="Menu" alignment="CENTER" prefHeight="33.0" prefWidth="150.0" style="-fx-background-color: #FFE668;" text="MENU" textFill="#ffac59" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <graphic>
+                                <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
+                                    <image>
+                                        <Image url="@Images/menu1.png" />
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <font>
+                                <Font name="System Bold" size="25.0" />
+                            </font>
+                        </Label>
+               </children>
+            </AnchorPane>
+            <TabPane fx:id="tabContainer" prefHeight="200.0" prefWidth="200.0" stylesheets="@Styles/TabPane.css" tabClosingPolicy="UNAVAILABLE" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.rowSpan="4">
+              <tabs>
+                <Tab fx:id="searchTab" text="SEARCH">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #FFE668;">
+                           <children>
+                              <WebView fx:id="webView" layoutX="318.0" layoutY="43.0" prefHeight="405.0" prefWidth="438.0" />
+                              <JFXListView fx:id="listView" layoutX="48.0" layoutY="114.0" prefHeight="333.0" prefWidth="225.0" stylesheets="@Styles/ListView.css" />
+                              <JFXTextField fx:id="textField" focusColor="#fa7d00" labelFloat="true" layoutX="65.0" layoutY="61.0" prefHeight="30.0" prefWidth="165.0" promptText="Type here" stylesheets="@Styles/TextField.css" unFocusColor="#dd2c00" />
+                              <JFXButton alignment="BASELINE_CENTER" layoutX="239.0" layoutY="64.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#loadToWebView" prefHeight="34.0" prefWidth="33.0" stylesheets="@Styles/JFXButton.css" textFill="#ffe668">
+                                 <graphic>
+                                    <FontAwesomeIcon glyphName="SEARCH_PLUS" size="20px" />
+                                 </graphic></JFXButton>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                     <graphic>
+                        <FontAwesomeIcon glyphName="SEARCH" />
+                     </graphic>
+                </Tab>
+                <Tab fx:id="addTab" text="Add">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #FFE668;">
+                           <children>
+                              <TextField fx:id="wordTextField" layoutX="74.0" layoutY="50.0" prefHeight="25.0" prefWidth="154.0" styleClass="text-field" />
+                              <ChoiceBox fx:id="partOfSpeech" layoutX="74.0" layoutY="105.0" prefHeight="25.0" prefWidth="154.0" stylesheets="@Styles/ChoiceBox.css" />
+                              <AnchorPane fx:id="exPane" layoutX="39.0" layoutY="278.0" prefHeight="103.0" prefWidth="260.0">
+                                 <children>
+                                    <TextField fx:id="exTextField" layoutX="42.0" layoutY="20.0" />
+                                    <TextField fx:id="exMeaningTextField" layoutX="42.0" layoutY="53.0" />
+                                    <Label layoutX="1.0" layoutY="23.0" text="Vi du" />
+                                    <Label layoutX="1.0" layoutY="57.0" text="nghia" />
+                                    <Button layoutX="197.0" layoutY="19.0" mnemonicParsing="false" onAction="#loadEx" prefHeight="25.0" prefWidth="63.0" text="Button" />
+                                 </children>
+                              </AnchorPane>
+                              <Label layoutX="39.0" layoutY="54.0" text="Word" />
+                              <Label layoutX="39.0" layoutY="109.0" text="Tyoe" />
+                              <Button layoutX="237.0" layoutY="50.0" mnemonicParsing="false" onAction="#loadNewWord" text="Button" />
+                              <WebView fx:id="addWebView" layoutX="322.0" layoutY="37.0" prefHeight="405.0" prefWidth="438.0" />
+                              <TextField fx:id="meaningTextField" layoutX="79.0" layoutY="176.0" />
+                              <Label layoutX="40.0" layoutY="180.0" text="Label" />
+                              <Button layoutX="237.0" layoutY="105.0" mnemonicParsing="false" onAction="#loadPartOfSpeech" text="Button" />
+                              <Button layoutX="237.0" layoutY="176.0" mnemonicParsing="false" onAction="#loadMeaning" text="Button" />
+                              <Button fx:id="submit" layoutX="243.0" layoutY="405.0" mnemonicParsing="false" onAction="#addNewWord" text="Addd" />
+                              <AnchorPane fx:id="notification" layoutX="54.0" layoutY="457.0" prefHeight="50.0" prefWidth="664.0" style="-fx-background-color: #FFE668; -fx-border-color: #f5891d; -fx-border-width: 2;" AnchorPane.bottomAnchor="0.0" />
+                              <Button layoutX="39.0" layoutY="235.0" mnemonicParsing="false" onAction="#showExPane" text="Button" />
+                              <Button layoutX="48.0" layoutY="393.0" mnemonicParsing="false" onAction="#addNewWordUndo" text="undo" />
+                           </children></AnchorPane>
+                  </content>
+                     <graphic>
+                        <FontAwesomeIcon glyphName="EDIT" />
+                     </graphic>
+                </Tab>
+                  <Tab fx:id="removeTab" text="Remove">
+                     <graphic>
+                        <FontAwesomeIcon glyphName="TRASH" />
+                     </graphic>
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #FFE668;">
+                           <children>
+                              <JFXListView fx:id="removeListView" layoutX="48.0" layoutY="114.0" prefHeight="333.0" prefWidth="225.0" stylesheets="@Styles/ListView.css" />
+                              <JFXTextField fx:id="removeWordTextField" focusColor="#fa7d00" labelFloat="true" layoutX="65.0" layoutY="61.0" prefHeight="30.0" prefWidth="165.0" promptText="Type here" stylesheets="@Styles/TextField.css" unFocusColor="#dd2c00" />
+                              <JFXButton alignment="BASELINE_CENTER" layoutX="239.0" layoutY="64.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#removeWord" prefHeight="34.0" prefWidth="33.0" stylesheets="@Styles/JFXButton.css" textFill="#ffe668">
+                                 <graphic>
+                                    <FontAwesomeIcon glyphName="SEARCH_PLUS" size="20px" />
+                                 </graphic>
+                              </JFXButton>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab fx:id="fixTab" text="Fix">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <WebView fx:id="fixWebView" layoutX="413.0" layoutY="37.0" prefHeight="426.0" prefWidth="333.0" />
+                              <AnchorPane fx:id="fixSearchWordPane" layoutX="46.0" layoutY="14.0" prefHeight="393.0" prefWidth="325.0" style="-fx-background-color: pink;">
+                                 <children>
+                                    <ListView fx:id="fixListView" layoutX="26.0" layoutY="61.0" prefHeight="336.0" prefWidth="225.0" />
+                                    <Button layoutX="199.0" layoutY="22.0" mnemonicParsing="false" onAction="#getFixWordTarget" text="Button" />
+                                    <TextField fx:id="fixTextField" layoutX="14.0" layoutY="22.0" />
+                                 </children>
+                              </AnchorPane>
+                              <AnchorPane fx:id="fixWordDetailsPane" layoutX="34.0" layoutY="44.0" prefHeight="376.0" prefWidth="348.0" style="-fx-background-color: red;">
+                                 <children>
+                                    <TextField fx:id="fixMeaningTextField" layoutX="33.0" layoutY="152.0" />
+                                    <AnchorPane fx:id="fixExPane" layoutX="14.0" layoutY="253.0" prefHeight="100.0" prefWidth="295.0">
+                                       <children>
+                                          <TextField fx:id="fixExTextField" layoutX="14.0" layoutY="14.0" />
+                                          <TextField fx:id="fixExMeaningTextField" layoutX="14.0" layoutY="50.0" />
+                                          <Button layoutX="229.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadFixEx" text="Button" />
+                                       </children>
+                                    </AnchorPane>
+                                    <ChoiceBox fx:id="fixPartOfSpeech" layoutX="33.0" layoutY="39.0" prefWidth="150.0" />
+                                    <Button layoutX="233.0" layoutY="39.0" mnemonicParsing="false" onAction="#loadFixPartOfSpeech" text="Button" />
+                                    <Button layoutX="233.0" layoutY="152.0" mnemonicParsing="false" onAction="#loadFixMeaning" text="Button" />
+                                    <Button layoutX="33.0" layoutY="203.0" mnemonicParsing="false" onAction="#showFixExPane" text="Button" />
+                                 </children>
+                              </AnchorPane>
+                              <Button layoutX="313.0" layoutY="438.0" mnemonicParsing="false" onAction="#fixNewWord" text="Button" />
+                              <Button layoutX="126.0" layoutY="438.0" mnemonicParsing="false" onAction="#fixNewWordUndo" text="Button" />
+                           </children></AnchorPane>
+                    </content>
+                     <graphic>
+                        <FontAwesomeIcon glyphName="WRENCH" text="" />
+                     </graphic>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </children>
+      </GridPane>
+    </children>
+</AnchorPane>

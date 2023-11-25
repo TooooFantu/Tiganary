@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="example.demodic.HomeUIController">
+   <children>
+      <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="600.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="600.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="500.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="1.7976931348623157E308" minHeight="-Infinity" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="1.7976931348623157E308" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="1200.0" GridPane.columnSpan="2">
+               <children>
+                  <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="1200.0" style="-fx-background-color: #dd2c00;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <ImageView fx:id="Exit" fitHeight="22.0" fitWidth="22.0" layoutX="1174.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/exit.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="4.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/lionary_logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="34.0" layoutY="6.0" text="TIGANARY" textFill="#ffe668">
+                           <font>
+                              <Font name="Arial Bold" size="15.0" />
+                           </font>
+                        </Label>
+                     </children></Pane>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="pane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="600.0" style="-fx-background-color: #ffa726;" GridPane.rowIndex="1" GridPane.rowSpan="4">
+               <children>
+                  <ImageView fitHeight="247.0" fitWidth="207.0" layoutX="201.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/hello-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="236.0" layoutY="469.0" text="CHÀO MỪNG ĐẾN VỚI" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="197.0" layoutY="484.0" text="TIGANARY" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="40.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="239.0" layoutY="531.0" text="TỪ ĐIỂN TỐT NHẤT" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="275.0" layoutY="547.0" text="THẾ GIỚI" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="11.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="545.0" layoutY="644.0" text="\@TIGAR" textFill="#dd2c00" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="pane2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="600.0" style="-fx-background-color: #ffd24d;" GridPane.rowIndex="1" GridPane.rowSpan="4">
+               <children>
+                  <ImageView fitHeight="247.0" fitWidth="214.0" layoutX="193.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/fish-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="236.0" layoutY="469.0" text="CHÀO MỪNG ĐẾN VỚI" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="197.0" layoutY="484.0" text="TIGANARY" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="40.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="239.0" layoutY="531.0" text="TỪ ĐIỂN TỐT NHẤT" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="275.0" layoutY="547.0" text="THẾ GIỚI" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="11.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="545.0" layoutY="644.0" text="\@TIGAR" textFill="#dd2c00" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="pane3" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="600.0" style="-fx-background-color: #ffa726;" GridPane.rowIndex="1" GridPane.rowSpan="4">
+               <children>
+                  <ImageView fitHeight="266.0" fitWidth="259.0" layoutX="196.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/find.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="236.0" layoutY="469.0" text="CHÀO MỪNG ĐẾN VỚI" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="197.0" layoutY="484.0" text="TIGANARY" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="40.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="239.0" layoutY="531.0" text="TỪ ĐIỂN TỐT NHẤT" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="275.0" layoutY="547.0" text="THẾ GIỚI" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="11.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="545.0" layoutY="644.0" text="\@TIGAR" textFill="#dd2c00" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="pane4" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="600.0" style="-fx-background-color: #ffd24d;" GridPane.rowIndex="1" GridPane.rowSpan="4">
+               <children>
+                  <ImageView fitHeight="254.0" fitWidth="241.0" layoutX="191.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/gold-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="236.0" layoutY="469.0" text="CHÀO MỪNG ĐẾN VỚI" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="197.0" layoutY="484.0" text="TIGANARY" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="40.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="239.0" layoutY="531.0" text="TỪ ĐIỂN TỐT NHẤT" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="275.0" layoutY="547.0" text="THẾ GIỚI" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="11.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="545.0" layoutY="644.0" text="\@TIGAR" textFill="#dd2c00" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                     <font>
+                        <Font name="Arial Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="signInPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="600.0" style="-fx-background-color: #ffe668;" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.rowSpan="4">
+               <children>
+                  <JFXTextField fx:id="signInUserName" focusColor="#fa7d00" labelFloat="true" layoutX="134.0" layoutY="315.0" prefHeight="40.0" prefWidth="300.0" promptText="Tên tài khoản" stylesheets="@Styles/TextField.css" unFocusColor="#dd2c00">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXTextField fx:id="signInUserPassword" focusColor="#fa7d00" labelFloat="true" layoutX="134.0" layoutY="383.0" prefHeight="40.0" prefWidth="300.0" promptText="Mật khẩu" stylesheets="@Styles/TextField.css" unFocusColor="#dd2c00">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXButton graphicTextGap="10.0" layoutX="134.0" layoutY="490.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#signIn" prefHeight="50.0" prefWidth="300.0" stylesheets="@Styles/JFXButton.css" text="ĐĂNG NHẬP" textFill="#ffe668">
+                     <graphic>
+                        <FontAwesomeIcon glyphName="SIGN_IN" size="1.4em" />
+                     </graphic>
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </JFXButton>
+                  <ImageView fitHeight="90.0" fitWidth="95.0" layoutX="128.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/pumkin-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="136.0" layoutY="237.0" text="Đăng nhập để tiếp tục" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="134.0" layoutY="178.0" text="CHÀO MỪNG" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="134.0" layoutY="201.0" text="QUAY TRỞ LẠI" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="315.0" layoutY="447.0" onMouseClicked="#showChangePasswordPane" text="Quyên mật khẩu?" textFill="#dd2c00" underline="true">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="314.0" layoutY="584.0" onMouseClicked="#showSignUpPane" text="Tạo tài khoản mới" textFill="#dd2c00" underline="true">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="172.0" layoutY="584.0" text="Chưa có tài khoản?" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane fx:id="blankUserName" layoutX="447.0" layoutY="315.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="100.0" AnchorPane.rightAnchor="60.0">
+                     <children>
+                        <Polygon fill="#dd2c00" layoutX="15.0" layoutY="25.0" points="-15.0, -5.0, 13.0, 11.0, 13.0, -21.0" stroke="#dd2c00" strokeType="INSIDE" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dd2c00" height="32.0" layoutX="28.0" layoutY="5.0" stroke="#dd2c00" strokeType="INSIDE" width="45.0" AnchorPane.topAnchor="4.0" />
+                        <Circle fill="#dd2c00" layoutX="89.0" layoutY="20.0" radius="16.0" stroke="#dd2c00" strokeType="INSIDE" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="4.0" />
+                        <Label layoutX="23.0" layoutY="12.0" text="Trống" textFill="#ffe668">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIcon fill="#ffe668" glyphName="EXCLAMATION_CIRCLE" />
+                           </graphic>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="blankUserPassword" layoutX="446.0" layoutY="383.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="100.0" AnchorPane.rightAnchor="60.0">
+                     <children>
+                        <Polygon fill="#dd2c00" layoutX="15.0" layoutY="25.0" points="-15.0, -5.0, 13.0, 11.0, 13.0, -21.0" stroke="#dd2c00" strokeType="INSIDE" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dd2c00" height="32.0" layoutX="28.0" layoutY="5.0" stroke="#dd2c00" strokeType="INSIDE" width="45.0" AnchorPane.topAnchor="4.0" />
+                        <Circle fill="#dd2c00" layoutX="89.0" layoutY="20.0" radius="16.0" stroke="#dd2c00" strokeType="INSIDE" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="4.0" />
+                        <Label layoutX="23.0" layoutY="12.0" text="Trống" textFill="#ffe668">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIcon fill="#ffe668" glyphName="EXCLAMATION_CIRCLE" />
+                           </graphic>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="wrongNameOrPassword" layoutX="440.0" layoutY="325.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="78.0" prefWidth="150.0">
+                     <children>
+                        <Polygon fill="#dd2c00" layoutX="15.0" layoutY="25.0" points="-15.0, 16.0, 13.0, 49.0, 13.0, -21.0" stroke="#dd2c00" strokeType="INSIDE" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dd2c00" height="70.0" layoutX="28.0" layoutY="5.0" stroke="#dd2c00" strokeType="INSIDE" width="97.0" AnchorPane.topAnchor="4.0" />
+                        <Ellipse fill="#dd2c00" layoutX="128.0" layoutY="39.0" radiusX="20.0" radiusY="35.0" stroke="#dd2c00" strokeType="INSIDE" AnchorPane.rightAnchor="5.0" />
+                        <Label layoutX="45.0" layoutY="14.0" text="Tài khoản" textFill="#ffe668">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="18.0" layoutY="31.0" text="hoặc mật khẩu" textFill="#ffe668">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIcon fill="#ffe668" glyphName="EXCLAMATION_CIRCLE" />
+                           </graphic>
+                        </Label>
+                        <Label layoutX="38.0" layoutY="47.0" text="không đúng" textFill="#ffe668">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="signUpPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="600.0" style="-fx-background-color: #ffe668;" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.rowSpan="4">
+               <children>
+                  <JFXTextField fx:id="signUpUserName" focusColor="#fa7d00" labelFloat="true" layoutX="134.0" layoutY="315.0" prefHeight="40.0" prefWidth="300.0" promptText="Tên tài khoản" stylesheets="@Styles/TextField.css" unFocusColor="#dd2c00">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXTextField fx:id="signUpUserPassword" focusColor="#fa7d00" labelFloat="true" layoutX="134.0" layoutY="383.0" prefHeight="40.0" prefWidth="300.0" promptText="Mật khẩu" stylesheets="@Styles/TextField.css" unFocusColor="#dd2c00">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXButton graphicTextGap="10.0" layoutX="134.0" layoutY="490.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#signUp" prefHeight="50.0" prefWidth="300.0" stylesheets="@Styles/JFXButton.css" text="TẠO TÀI KHOẢN" textFill="#ffe668">
+                     <graphic>
+                        <FontAwesomeIcon glyphName="USER_PLUS" size="1.4em" />
+                     </graphic>
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </JFXButton>
+                  <ImageView fitHeight="90.0" fitWidth="95.0" layoutX="128.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/pumkin-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="135.0" layoutY="237.0" text="Nhập thông tin bên dưới" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="134.0" layoutY="178.0" text="TÀI KHOẢN" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="134.0" layoutY="201.0" text="TIGAR USER" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="360.0" layoutY="584.0" onMouseClicked="#showSignInPane" text="Đăng nhập" textFill="#dd2c00" underline="true" AnchorPane.bottomAnchor="69.0" AnchorPane.rightAnchor="166.0">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="233.0" layoutY="584.0" text="Đã có tài khoản?" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane fx:id="blankSingUpUserName" layoutX="441.0" layoutY="315.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="100.0" AnchorPane.rightAnchor="60.0">
+                     <children>
+                        <Polygon fill="#dd2c00" layoutX="15.0" layoutY="25.0" points="-15.0, -5.0, 13.0, 11.0, 13.0, -21.0" stroke="#dd2c00" strokeType="INSIDE" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dd2c00" height="32.0" layoutX="28.0" layoutY="5.0" stroke="#dd2c00" strokeType="INSIDE" width="45.0" AnchorPane.topAnchor="4.0" />
+                        <Circle fill="#dd2c00" layoutX="89.0" layoutY="20.0" radius="16.0" stroke="#dd2c00" strokeType="INSIDE" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="4.0" />
+                        <Label layoutX="23.0" layoutY="12.0" text="Trống" textFill="#ffe668">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIcon fill="#ffe668" glyphName="EXCLAMATION_CIRCLE" />
+                           </graphic>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="blankSignUpUserPassword" layoutX="441.0" layoutY="383.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="100.0" AnchorPane.rightAnchor="60.0">
+                     <children>
+                        <Polygon fill="#dd2c00" layoutX="15.0" layoutY="25.0" points="-15.0, -5.0, 13.0, 11.0, 13.0, -21.0" stroke="#dd2c00" strokeType="INSIDE" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dd2c00" height="32.0" layoutX="28.0" layoutY="5.0" stroke="#dd2c00" strokeType="INSIDE" width="45.0" AnchorPane.topAnchor="4.0" />
+                        <Circle fill="#dd2c00" layoutX="89.0" layoutY="20.0" radius="16.0" stroke="#dd2c00" strokeType="INSIDE" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="4.0" />
+                        <Label layoutX="23.0" layoutY="12.0" text="Trống" textFill="#ffe668">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIcon fill="#ffe668" glyphName="EXCLAMATION_CIRCLE" />
+                           </graphic>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="containUserName" layoutX="440.0" layoutY="305.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="78.0" prefWidth="125.0" AnchorPane.bottomAnchor="287.0" AnchorPane.rightAnchor="35.0">
+                     <children>
+                        <Polygon fill="#dd2c00" layoutX="15.0" layoutY="25.0" points="-15.0, 6.0, 13.0, 39.0, 13.0, -11.0" stroke="#dd2c00" strokeType="INSIDE" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dd2c00" height="50.0" layoutX="28.0" layoutY="14.0" stroke="#dd2c00" strokeType="INSIDE" width="75.0" AnchorPane.topAnchor="14.0" />
+                        <Ellipse fill="#dd2c00" layoutX="128.0" layoutY="39.0" radiusX="20.0" radiusY="25.0" stroke="#dd2c00" strokeType="INSIDE" AnchorPane.rightAnchor="5.0" />
+                        <Label layoutX="19.0" layoutY="23.0" text="Tài khoản" textFill="#ffe668">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIcon fill="#ffe668" glyphName="EXCLAMATION_CIRCLE" />
+                           </graphic>
+                        </Label>
+                        <Label layoutX="38.0" layoutY="39.0" text="đã tồn tại" textFill="#ffe668">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="signUpSuccessPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="600.0" style="-fx-background-color: #ffe668;" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.rowSpan="4">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="95.0" layoutX="128.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/pumkin-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="248.0" layoutY="335.0" text="Tạo tài khoản" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="134.0" layoutY="178.0" text="TÀI KHOẢN" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="134.0" layoutY="201.0" text="TIGAR USER" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIcon fill="#dd2c00" glyphName="CHECK_SQUARE" layoutX="279.0" layoutY="433.0" size="4em" AnchorPane.bottomAnchor="230.1428565979004" AnchorPane.leftAnchor="279.0" />
+                  <Label layoutX="239.0" layoutY="361.0" text="THÀNH CÔNG" textFill="#dd2c00" AnchorPane.bottomAnchor="288.0" AnchorPane.leftAnchor="239.0" AnchorPane.rightAnchor="240.0">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="360.0" layoutY="587.0" onMouseClicked="#showSignInPane" text="Đăng nhập" textFill="#dd2c00" underline="true" AnchorPane.bottomAnchor="69.0" AnchorPane.rightAnchor="166.0">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="homePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="600.0" style="-fx-background-color: #ffe668;" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.rowSpan="4">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="95.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/vest-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <JFXButton layoutX="91.0" layoutY="14.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="120.0" stylesheets="@Styles/JFXButton.css" text="TIGAR USER" textFill="#ffe668" AnchorPane.leftAnchor="90.0" AnchorPane.topAnchor="20.0">
+                     <font>
+                        <Font name="Arial" size="12.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/lionary_logo_2.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </JFXButton>
+                  <Label fx:id="labelUserName" layoutX="90.0" layoutY="57.0" text="TIGANARY" textFill="#dd2c00" AnchorPane.leftAnchor="90.0" AnchorPane.topAnchor="65.0">
+                     <font>
+                        <Font name="Arial Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <JFXButton alignment="CENTER" graphicTextGap="10.0" layoutX="55.0" layoutY="429.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#switchToSearchScene" prefHeight="60.0" prefWidth="60.0" stylesheets="@Styles/JFXButton.css" textFill="#ffe668" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="50.0">
+                     <graphic>
+                        <FontAwesomeIcon glyphName="SEARCH" size="3em" wrappingWidth="46.39999771118164" />
+                     </graphic>
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton alignment="CENTER" graphicTextGap="10.0" layoutX="163.0" layoutY="429.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#switchToSettingScene" prefHeight="60.0" prefWidth="60.0" stylesheets="@Styles/JFXButton.css" textFill="#ffe668" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="160.0">
+                     <graphic>
+                        <FontAwesomeIcon glyphName="GEAR" size="3em" wrappingWidth="46.39999771118164" />
+                     </graphic>
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton alignment="CENTER" graphicTextGap="10.0" layoutX="268.0" layoutY="429.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#switchToGameScene" prefHeight="60.0" prefWidth="60.0" stylesheets="@Styles/JFXButton.css" textFill="#ffe668" AnchorPane.bottomAnchor="80.0" AnchorPane.rightAnchor="270.0">
+                     <graphic>
+                        <FontAwesomeIcon glyphName="STEAM" size="3em" wrappingWidth="54.39999771118164" />
+                     </graphic>
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton alignment="CENTER" graphicTextGap="10.0" layoutX="374.0" layoutY="429.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" stylesheets="@Styles/JFXButton.css" textFill="#ffe668" AnchorPane.bottomAnchor="80.0" AnchorPane.rightAnchor="160.0">
+                     <graphic>
+                        <FontAwesomeIcon glyphName="QUESTION_CIRCLE" size="3em" wrappingWidth="46.39999771118164" />
+                     </graphic>
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton alignment="CENTER" graphicTextGap="10.0" layoutX="476.0" layoutY="429.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#signOut" prefHeight="60.0" prefWidth="60.0" stylesheets="@Styles/JFXButton.css" textFill="#ffe668" AnchorPane.bottomAnchor="80.0" AnchorPane.rightAnchor="50.0">
+                     <graphic>
+                        <FontAwesomeIcon glyphName="SIGN_IN" size="3em" wrappingWidth="46.39999771118164" />
+                     </graphic>
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </JFXButton>
+                  <FontAwesomeIcon fill="#dd2c00" glyphName="HOME" layoutX="222.0" layoutY="261.0" size="14em" />
+                  <Label layoutX="167.0" layoutY="274.0" text="NGÔI NHÀ CỦA MỌI NGƯỜI" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="100.0" fitWidth="88.0" layoutX="38.0" layoutY="422.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/magnifier-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="76.0" layoutX="156.0" layoutY="422.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/witch-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="259.0" layoutY="422.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/circle-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="111.0" layoutX="366.0" layoutY="422.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/candy-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="84.0" layoutX="480.0" layoutY="422.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/hello-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="42.0" layoutY="601.0" text="Tra cứu" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="156.0" layoutY="599.0" text="Cài đặt" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="259.0" layoutY="601.0" text="Trò chơi" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="364.0" layoutY="601.0" text="Thông tin" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="472.0" layoutY="601.0" text="Đăng xuất" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="changePasswordPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="600.0" style="-fx-background-color: #ffe668;" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.rowSpan="4">
+               <children>
+                  <JFXTextField fx:id="changeUserName" focusColor="#fa7d00" labelFloat="true" layoutX="134.0" layoutY="315.0" prefHeight="40.0" prefWidth="300.0" promptText="Tên tài khoản" stylesheets="@Styles/TextField.css" unFocusColor="#dd2c00">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXTextField fx:id="changeUserPassword" focusColor="#fa7d00" labelFloat="true" layoutX="134.0" layoutY="383.0" prefHeight="40.0" prefWidth="300.0" promptText="Mật khẩu mới" stylesheets="@Styles/TextField.css" unFocusColor="#dd2c00">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXButton graphicTextGap="10.0" layoutX="134.0" layoutY="490.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#changePassword" prefHeight="50.0" prefWidth="300.0" stylesheets="@Styles/JFXButton.css" text="ĐỔI MẬT KHẨU" textFill="#ffe668">
+                     <graphic>
+                        <FontAwesomeIcon glyphName="EDIT" size="1.4em" />
+                     </graphic>
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </JFXButton>
+                  <ImageView fitHeight="90.0" fitWidth="95.0" layoutX="128.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/pumkin-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="135.0" layoutY="237.0" text="Nhập thông tin bên dưới" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="134.0" layoutY="178.0" text="ĐỔI MẬT KHẨU" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="134.0" layoutY="201.0" text="TIGAR USER" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="360.0" layoutY="584.0" onMouseClicked="#showSignInPane" text="Đăng nhập" textFill="#dd2c00" underline="true">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="215.0" layoutY="584.0" onMouseClicked="#showSignUpPane" text="Tạo tài khoản mới" textFill="#dd2c00" underline="true">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Label>
+                  <AnchorPane fx:id="blankChangeUserName" layoutX="441.0" layoutY="315.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="100.0" AnchorPane.rightAnchor="60.0">
+                     <children>
+                        <Polygon fill="#dd2c00" layoutX="15.0" layoutY="25.0" points="-15.0, -5.0, 13.0, 11.0, 13.0, -21.0" stroke="#dd2c00" strokeType="INSIDE" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dd2c00" height="32.0" layoutX="28.0" layoutY="5.0" stroke="#dd2c00" strokeType="INSIDE" width="45.0" AnchorPane.topAnchor="4.0" />
+                        <Circle fill="#dd2c00" layoutX="89.0" layoutY="20.0" radius="16.0" stroke="#dd2c00" strokeType="INSIDE" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="4.0" />
+                        <Label layoutX="23.0" layoutY="12.0" text="Trống" textFill="#ffe668">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIcon fill="#ffe668" glyphName="EXCLAMATION_CIRCLE" />
+                           </graphic>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="blankChangeUserPassword" layoutX="441.0" layoutY="383.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="100.0" AnchorPane.rightAnchor="60.0">
+                     <children>
+                        <Polygon fill="#dd2c00" layoutX="15.0" layoutY="25.0" points="-15.0, -5.0, 13.0, 11.0, 13.0, -21.0" stroke="#dd2c00" strokeType="INSIDE" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dd2c00" height="32.0" layoutX="28.0" layoutY="5.0" stroke="#dd2c00" strokeType="INSIDE" width="45.0" AnchorPane.topAnchor="4.0" />
+                        <Circle fill="#dd2c00" layoutX="89.0" layoutY="20.0" radius="16.0" stroke="#dd2c00" strokeType="INSIDE" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="4.0" />
+                        <Label layoutX="23.0" layoutY="12.0" text="Trống" textFill="#ffe668">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIcon fill="#ffe668" glyphName="EXCLAMATION_CIRCLE" />
+                           </graphic>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane fx:id="userNameDoesNotExit" layoutX="425.0" layoutY="231.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="78.0" prefWidth="125.0" AnchorPane.bottomAnchor="287.0" AnchorPane.rightAnchor="35.0">
+                     <children>
+                        <Polygon fill="#dd2c00" layoutX="15.0" layoutY="25.0" points="-15.0, 6.0, 13.0, 39.0, 13.0, -11.0" stroke="#dd2c00" strokeType="INSIDE" />
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dd2c00" height="50.0" layoutX="28.0" layoutY="14.0" stroke="#dd2c00" strokeType="INSIDE" width="75.0" AnchorPane.topAnchor="14.0" />
+                        <Ellipse fill="#dd2c00" layoutX="128.0" layoutY="39.0" radiusX="20.0" radiusY="25.0" stroke="#dd2c00" strokeType="INSIDE" AnchorPane.rightAnchor="5.0" />
+                        <Label layoutX="19.0" layoutY="23.0" text="Tài khoản" textFill="#ffe668">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                           <graphic>
+                              <FontAwesomeIcon fill="#ffe668" glyphName="EXCLAMATION_CIRCLE" />
+                           </graphic>
+                        </Label>
+                        <Label layoutX="22.0" layoutY="39.0" text="không tồn tại" textFill="#ffe668">
+                           <font>
+                              <Font name="Arial Bold" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+            <AnchorPane fx:id="changePasswordSuccess" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="600.0" style="-fx-background-color: #ffe668;" visible="false" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.rowSpan="4">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="95.0" layoutX="128.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/pumkin-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="135.0" layoutY="237.0" text="Nhập thông tin bên dưới" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial" size="17.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="134.0" layoutY="178.0" text="ĐỔI MẬT KHẨU" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="134.0" layoutY="201.0" text="TIGAR USER" textFill="#dd2c00">
+                     <font>
+                        <Font name="Arial Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="360.0" layoutY="584.0" onMouseClicked="#showSignInPane" text="Đăng nhập" textFill="#dd2c00" underline="true" AnchorPane.bottomAnchor="69.0" AnchorPane.rightAnchor="166.0">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="215.0" layoutY="584.0" onMouseClicked="#showSignUpPane" text="Tạo tài khoản mới" textFill="#dd2c00" underline="true">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="252.0" layoutY="312.0" text="THÀNH CÔNG" textFill="#dd2c00" AnchorPane.bottomAnchor="288.0" AnchorPane.leftAnchor="239.0">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIcon fill="#dd2c00" glyphName="CHECK_SQUARE" layoutX="288.0" layoutY="423.0" size="4em" AnchorPane.bottomAnchor="230.0" AnchorPane.leftAnchor="279.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+.button{
+    -fx-background-color: #ffd24d;
+    -fx-font-size: 25px;
+    -fx-font-family: Arial, Helvetica, sans-serif;
+    -fx-font-weight: bold;
+    -fx-text-fill: #F3912F;
+}
+
+.button:hover{
+    -fx-background-color: #FFE668;
+    -fx-border-color: #fa8919;
+    -fx-border-width: 0px 0px 0px 3px;
+}
+
+.button:pressed{
+    -fx-background-color: #fa8919;
+}
